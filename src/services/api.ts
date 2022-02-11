@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "https://web1adonisjs.herokuapp.com",
+    baseURL: "https://projetincefet.herokuapp.com/",
     headers: {
         'Content-Type': 'application/json'
     }

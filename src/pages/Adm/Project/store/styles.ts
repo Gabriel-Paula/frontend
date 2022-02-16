@@ -1,10 +1,12 @@
 import styled from "styled-components"
 import { colors } from "styles/GlobalStyle"
+import fundo01 from "src/assets/fundo.jpg"
 
 export const Main = styled.main`
   form {
     margin: 1rem 0;
     padding: 0.4rem;
+
     a {
       background-color: ${colors.blue};
       border-radius: 0.3rem;

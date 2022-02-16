@@ -24,17 +24,17 @@ const ProjectStore = () => {
                 setIsLoading(true);
                 if (Number(id) > 0) {
                     await apiProjeto.update(Number(id), data);
-                    toast.warning("Projeto atualizado com sucesso!");
+                    toast.warning("Project updated successfully!");
                 } else {
                     await apiProjeto.store(data);
-                    toast.success("Cadastro de projeto realizado!");
+                    toast.success("Project registration carried out!");
                 }
                 history.push("/adm");
             } catch (error) {
                 console.log(error);
                 const err = error as AxiosError;
                 const msg = err.response?.data.errors.map((i: any) => i.message);
-                toast.error(`Falha ao cadastrar o projeto! ${msg.join(" ")}`);
+                toast.error(`Failed to register project! ${msg.join(" ")}`);
             } finally {
                 setIsLoading(false);
             }
@@ -75,21 +75,21 @@ const ProjectStore = () => {
                     <S.Main>
                         <form method="POST" onSubmit={handleSubmit(handleStore)}>
                             <Link to="/adm">
-                                <FcUndo /> Voltar
+                                <FcUndo /> Back
                             </Link>
                             <div>
-                                <label htmlFor="proj">Projeto: </label>
+                                <label htmlFor="proj">Comment: </label>
                                 <textarea
                                     id="proj"
-                                    placeholder="Descreva o seu projeto"
+                                    placeholder="Make your comment"
                                     required
-                                    {...register("projeto")}
+                                    {...register("Comment")}
                                     value={projects?.projeto}
                                     onChange={handleChange}
                                 />
                             </div>
                             <Button type="submit">
-                                Enviar <FcDatabase />
+                                Send <FcDatabase />
                             </Button>
                         </form>
                     </S.Main>

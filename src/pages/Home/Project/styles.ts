@@ -20,6 +20,8 @@ export const Main = styled.main`
     display: flex;
     margin-top: 0.8rem;
   }
+  aside{
+    }
 `
 
 const colorVariations = {

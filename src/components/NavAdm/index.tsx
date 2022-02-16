@@ -7,6 +7,7 @@ import * as S from "./styles";
 const NavAdm = () => {
     const { signOut } = useAuth();
     const history = useHistory();
+
     const sair = useCallback(async () => {
         try {
             await signOut();

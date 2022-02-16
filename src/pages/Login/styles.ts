@@ -1,7 +1,10 @@
 import styled from "styled-components"
 import { colors } from "styles/GlobalStyle"
+import fundo01 from "assets/img/fundo.jpg"
 
 export const Main = styled.main`
+  background: url(${fundo01});
+  height: 100vh;
   min-height: 50vh;
   display: flex;
   align-items: center;

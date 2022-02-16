@@ -15,8 +15,9 @@ export const Main = styled.main`
     width: 100%;
     border-collapse: collapse;
     tr, td, th {
-      border: 1px solid ${colors.black};
+      border: 1px solid ${colors.white};
       padding: 0.5rem;
+      color: white 
     }
   }
 `

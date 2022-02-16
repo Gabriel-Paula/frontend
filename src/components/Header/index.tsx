@@ -10,7 +10,7 @@ const Header = () => {
                     {/*<img src={logo} alt="Logo do site" /> */}
                 </Link>
             </picture>
-            <h1>Laboratório de Aplicações Web 1</h1>
+            <h1>Animes GCP</h1>
         </S.Header>
     );
 };

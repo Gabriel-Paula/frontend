@@ -2,7 +2,7 @@ import styled from "styled-components"
 import { colors } from "styles/GlobalStyle"
 
 export const Footer = styled.footer`
-  border: 0.5rem solid ${colors.blue};
+  border: 0.5rem solid ${colors.darkRed};
   display: flex;
   flex-direction: row;
   align-items: center;

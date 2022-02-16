@@ -15,6 +15,7 @@ import {
 import { ICurtido } from "interface/curtir.interface";
 import { toast } from "react-toastify";
 import { parseISO, isAfter } from "date-fns";
+import anime from "assets/img/anime.jpg"
 
 const Home = () => {
     const [projects, setProjects] = useState<IProjectData[]>();
@@ -134,6 +135,9 @@ const Home = () => {
                                     )}
                                 </Project>
                             ))}
+                        <aside>
+                            <img src={anime} alt="anime" />
+                        </aside>
                     </S.Main>
                     <Footer />
                 </>

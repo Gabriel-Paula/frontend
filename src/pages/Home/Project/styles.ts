@@ -1,11 +1,13 @@
 import { CurtirProps } from "interface/style.interface"
 import styled, { css } from "styled-components"
 import { colors } from "styles/GlobalStyle"
+import fundo01 from "assets/img/fundo.jpg"
 
 export const Main = styled.main`
-  background-color: ${colors.green};
+  background: url(${fundo01});
+  height: 100vh;
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
   @media (max-width: 768px) {
     display: grid;
     grid-template-columns: auto auto;
@@ -21,10 +23,10 @@ export const Main = styled.main`
 `
 
 const colorVariations = {
-    default: css`
+  default: css`
     color: ${colors.white};
   `,
-    curtir: css`
+  curtir: css`
     color: ${colors.red};
   `
 }

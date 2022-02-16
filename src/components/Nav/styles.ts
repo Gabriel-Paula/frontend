@@ -2,9 +2,10 @@ import styled from "styled-components"
 import { colors } from "styles/GlobalStyle"
 
 export const Nav = styled.nav`
-  border: 0.5rem solid ${colors.blue};
+  border: 0.5rem solid ${colors.gray};
   border-top-width: 0;
   display: flex;
+  background-color: gray;
   ul {
     width: 100%;
     display: flex;
@@ -14,7 +15,7 @@ export const Nav = styled.nav`
       padding: 2rem;
       text-align: center;
       &:hover {
-        background-color: ${colors.green};
+        background-color: ${colors.blue};
         cursor: pointer;
       }
       a {
@@ -131,7 +132,7 @@ export const LoginReg = styled.div`
       padding: 2rem;
       text-align: center;
       &:hover {
-        background-color: ${colors.green};
+        background-color: ${colors.blue};
         cursor: pointer;
       }
       a {

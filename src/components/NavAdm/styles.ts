@@ -14,7 +14,7 @@ export const Nav = styled.nav`
       padding: 2rem;
       text-align: center;
       &:hover {
-        background-color: ${colors.green};
+        background-color: ${colors.blue};
         cursor: pointer;
       }
       a {
@@ -131,7 +131,7 @@ export const LoginReg = styled.div`
       padding: 2rem;
       text-align: center;
       &:hover {
-        background-color: ${colors.green};
+        background-color: ${colors.blue};
         cursor: pointer;
       }
       button {

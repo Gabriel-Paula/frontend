@@ -3,7 +3,8 @@ import { colors } from "styles/GlobalStyle"
 
 export const Header = styled.header`
   display: flex;
-  border: 0.5rem solid ${colors.blue};
+  background-color: gray;
+  border: 0.5rem solid ${colors.gray};
   align-items: center;
   picture {
     img {

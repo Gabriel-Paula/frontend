@@ -1,9 +1,9 @@
 import styled from "styled-components"
 import { colors } from "styles/GlobalStyle"
-import fundo01 from "assets/img/fundo.jpg"
+import fundo02 from "assets/img/fundo02.jpg"
 
 export const Main = styled.main`
-  background: url(${fundo01});
+  background: url(${fundo02});
   height: 100vh;
   ol {
     margin: 1rem;

@@ -2,6 +2,7 @@ import styled from "styled-components"
 import { colors } from "styles/GlobalStyle"
 
 export const Nav = styled.nav`
+  background-color: gray;
   border: 0.5rem solid ${colors.blue};
   border-top-width: 0;
   display: flex;

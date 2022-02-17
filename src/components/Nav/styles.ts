@@ -119,6 +119,7 @@ export const Nav = styled.nav`
       }
     }
   }
+  
 `
 
 export const LoginReg = styled.div`

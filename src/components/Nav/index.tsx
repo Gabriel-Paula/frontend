@@ -15,10 +15,10 @@ const Nav = () => {
             </label>
             <ul>
                 <li>
-                    <Link to="/">Home</Link>
+                    <Link to="/">Comments</Link>
                 </li>
                 <li>
-                    <Link to="/faq">FAQ</Link>
+                    <Link to="/faq">Favorites</Link>
                 </li>
             </ul>
             <S.LoginReg>
